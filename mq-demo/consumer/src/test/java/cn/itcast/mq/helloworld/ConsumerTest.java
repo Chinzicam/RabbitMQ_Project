@@ -17,7 +17,7 @@ public class ConsumerTest {
         factory.setVirtualHost("/");
         factory.setUsername("root");
         factory.setPassword("root");
-        factory.setHandshakeTimeout(300000000);//设置握手超时时间
+        factory.setHandshakeTimeout(100000000);//设置握手超时时间
         // 1.2.建立连接
         Connection connection = factory.newConnection();
 
